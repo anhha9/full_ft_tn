@@ -12,7 +12,7 @@ This repository contains the code and scripts used to fine-tune the [FLAN-T5-sma
 
 
 ## Overview
-Text normalization is an essential step in TTS systems, converting raw input text into a format suitable for speech synthesis. For example, converting "3rd" to "third" or "12:00 PM" to "twelve o'clock PM". This repository demonstrates how to fine-tune a pre-trained FLAN-T5-small model to handle text normalization tasks effectively.
+Text normalization is an essential step in TTS systems, converting raw input text into a format suitable for speech synthesis. For example, converting "15th June" to "the fifteenth of June" or "12:30 PM" to "twelve thirty p m". This repository demonstrates how to fine-tune a pre-trained FLAN-T5-small model to handle text normalization tasks effectively.
 
 ## Dataset
 The model is trained using the Google Text Normalization challenge dataset introduced by Sproat & Jaitly (2017). The dataset consists of pairs of verbalized and non-verbalized text, making it ideal for training models to handle text normalization in various contexts, including dates, numbers, addresses, and more.
