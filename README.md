@@ -11,6 +11,7 @@ This repository contains the code and scripts used to fine-tune the [FLAN-T5-sma
 - [Inference](#inference)
 - [Evaluation](#evaluation)
 - [Full paper](#full_paper)
+- [Miscellaneous](#misc)
 
 
 ## Overview
@@ -41,6 +42,9 @@ To fine-tune the model, use the official_ft.py script.
 
 ## Inference
 To make an inference after the model has been trained for a checkpoint, use the full_ft_inference.py script.
+
+## Miscellaneous
+To complete this project, I also did extensive data analysis of the whole dataset. The objective of data analysis in this project is to discover the distribution of each non-standard-word class in each file, and in each language presented in the whole dataset. 
 
 ## Evaluation
 The metric of evaluation is accuracy. 
