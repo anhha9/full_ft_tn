@@ -10,6 +10,7 @@ This repository contains the code and scripts used to fine-tune the [FLAN-T5-sma
 - [Training](#training)
 - [Inference](#inference)
 - [Evaluation](#evaluation)
+- [Full paper](#full_paper)
 
 
 ## Overview
@@ -43,3 +44,6 @@ To make an inference after the model has been trained for a checkpoint, use the 
 
 ## Evaluation
 The metric of evaluation is accuracy. 
+
+## Full paper
+Full paper is available upon request. The full paper is an 8000-word report, completed as my dissertation for the MSc. Speech and Language Processing at the University of Edinburgh. 
