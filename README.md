@@ -8,6 +8,7 @@ This repository contains the code and scripts used to fine-tune the [FLAN-T5-sma
 - [Model](#model)
 - [Preprocessing](#preprocessing)
 - [Training](#training)
+- [Inference](#inference)
 - [Evaluation](#evaluation)
 
 
@@ -27,7 +28,7 @@ Since each line in each file contains a pair of pre-verbalized and verbalized wo
 
 Preprocessing is a folder composed of files, each responsible for a step in the processing pipeline as follows:
 
-Step 1: Turn <self> in the cell in the third column into the corresponding non-normalized word in the cell in the second column. Turn sil in the cell in the third column into the corresponding punctuationmark in the cell in the second column
+Step 1: Turn <self> in the cell in the third column into the corresponding non-normalized word in the cell in the second column. Turn sil in the cell in the third column into the corresponding punctuation mark in the cell in the second column
 
 Step 2: Append the words line by line to make trios of classes of prenormalized words, preverbalized sentence, and verbalized sentence
 
@@ -36,6 +37,9 @@ Step 3: Make a data frame with 3 columns, namely “Classes”, “Preverbalized
 
 ## Training
 To fine-tune the model, use the official_ft.py script.
+
+## Inference
+To make an inference after the model has been trained for a checkpoint, use the full_ft_inference.py script.
 
 ## Evaluation
 The metric of evaluation is accuracy. 
