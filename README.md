@@ -40,6 +40,8 @@ Step 3: Make a data frame with 3 columns, namely “Classes”, “Preverbalized
 ## Training
 To fine-tune the model, use the official_ft.py script.
 
+Training was done on 1 NVIDIA V100 GPU. 
+
 ## Inference
 To make an inference after the model has been trained for a checkpoint, use the full_ft_inference.py script.
 
