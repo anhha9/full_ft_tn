@@ -36,6 +36,8 @@ Step 2: Append the words line by line to make trios of classes of prenormalized 
 
 Step 3: Make a data frame with 3 columns, namely “Classes”, “Preverbalized sentence”, and “Verbalized sentence” representing the trios from Step 2
 
+Step 4: Since the maximum context length of FLAN-T5-small (any other variants of FLAN-T5 models) is 512 tokens, I ran the final preprocessing steps where I removed pairs of preverbalized and verbalized sentences exceeding 512 tokens.
+
 
 ## Training
 To fine-tune the model, use the official_ft.py script.
